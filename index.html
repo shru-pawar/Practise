@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container-1 {
+            display: flex;
+            align-items: stretch;
+        }
+
+        .container-2 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .container-1 div,
+        .container-2 div {
+            border: 1px solid red;
+            background-color: burlywood;
+            padding: 10px;
+        }
+
+        
+        .box-1 {
+            flex: 1;
+            order: 1;
+        }
+
+        .box-2 {
+            flex: 2;
+            order: 3;
+        }
+
+        .box-3 {
+            flex: 3;
+            order: 2;
+        }
+        .container-2-box {
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-1">
+        <div class="box-1">
+            <h3>Box one </h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quisquam consequatur magnam voluptatibus porro id libero ullam eius temporibus magni. Voluptatum veritatis expedita alias porro magni perferendis deleniti in. Numquam?</p>
+        </div>
+        <div class="box-2">
+            <h3>Box two </h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quisquam consequatur magnam voluptatibus porro id
+                libero ullam eius temporibus magni. Voluptatum veritatis expedita alias porro magni perferendis deleniti in.
+                Numquam?</p>
+        </div>
+        <div class="box-3">
+            <h3>Box three</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quisquam consequatur magnam voluptatibus porro id
+                libero ullam eius temporibus magni. Voluptatum veritatis expedita alias porro magni perferendis deleniti in.
+                Numquam?</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container-2">
+        <div class="container-2-box">
+            
+            <h3>Box one </h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quisquam consequatur magnam voluptatibus
+                porro id libero ullam eius temporibus magni. Voluptatum veritatis expedita alias porro magni perferendis
+                deleniti in. Numquam?</p>
+        </div>
+        <div class="container-2-box">
+            <h3>Box two </h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quisquam consequatur magnam voluptatibus
+                porro id
+                libero ullam eius temporibus magni. Voluptatum veritatis expedita alias porro magni perferendis deleniti in.
+                Numquam?</p>
+        </div>
+        <div class="container-2-box">
+            <h3>Box three</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quisquam consequatur magnam voluptatibus
+                porro id
+                libero ullam eius temporibus magni. Voluptatum veritatis expedita alias porro magni perferendis deleniti in.
+                Numquam?</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
